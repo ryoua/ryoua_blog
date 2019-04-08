@@ -12,15 +12,10 @@ import org.springframework.web.bind.annotation.RequestParam;
 @Controller
 @RequestMapping("/blogs")
 public class BlogController {
-
-
     @GetMapping
     public String listBlogs(
             @RequestParam(value = "order", required = false, defaultValue = "new") String order,
             @RequestParam(value = "keyword", required = false) String keyword) {
-        System.out.println("order:" + order + ";keyward:" +keyword);
         return "redirect:/index?order=" + order + "&keyward=" + keyword;
     }
-
-
 }

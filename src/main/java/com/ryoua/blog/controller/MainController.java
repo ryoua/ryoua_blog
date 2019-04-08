@@ -10,7 +10,6 @@ import org.springframework.web.bind.annotation.GetMapping;
  */
 @Controller
 public class MainController {
-
     @GetMapping("/")
     public String root() {
         return "redirect:/index";
@@ -37,6 +36,4 @@ public class MainController {
     public String register() {
         return "register";
     }
-
-
 }
