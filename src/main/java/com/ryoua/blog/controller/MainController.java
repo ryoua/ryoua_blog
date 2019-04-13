@@ -5,11 +5,11 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 
 /**
- * 主页控制器
- * @Author ryoua Created on 2019/3/31
+ * @Author ryoua Created on 2019-04-11
  */
 @Controller
 public class MainController {
+
     @GetMapping("/")
     public String root() {
         return "redirect:/index";
@@ -28,12 +28,17 @@ public class MainController {
     @GetMapping("/login-error")
     public String loginError(Model model) {
         model.addAttribute("loginError", true);
-        model.addAttribute("errorMsg", "账号或者密码错误");
+        model.addAttribute("errorMsg", "登录失败, 账号或密码错误");
         return "login";
     }
 
     @GetMapping("/register")
     public String register() {
         return "register";
+    }
+
+    @GetMapping("/search")
+    public String search() {
+        return "search";
     }
 }
