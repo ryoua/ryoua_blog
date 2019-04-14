@@ -1,8 +1,10 @@
 package com.ryoua.blog.controller;
 
+import com.ryoua.blog.domain.User;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
 
 /**
  * @Author ryoua Created on 2019-04-11
@@ -35,6 +37,11 @@ public class MainController {
     @GetMapping("/register")
     public String register() {
         return "register";
+    }
+
+    @PostMapping
+    public String register(User user) {
+
     }
 
     @GetMapping("/search")
