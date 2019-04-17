@@ -9,7 +9,7 @@ import java.sql.Timestamp;
 /**
  * @Author ryoua Created on 2019-04-11
  */
-@Entity
+@Table(name = "blog")
 public class Blog {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -54,4 +54,100 @@ public class Blog {
 
     @Column(name = "likeSize")
     private Integer likeSize = 0; // 点赞量
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public String getTitle() {
+        return title;
+    }
+
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
+    public String getSummary() {
+        return summary;
+    }
+
+    public void setSummary(String summary) {
+        this.summary = summary;
+    }
+
+    public String getContent() {
+        return content;
+    }
+
+    public void setContent(String content) {
+        this.content = content;
+    }
+
+    public String getHtmlContent() {
+        return htmlContent;
+    }
+
+    public void setHtmlContent(String htmlContent) {
+        this.htmlContent = htmlContent;
+    }
+
+    public User getUser() {
+        return user;
+    }
+
+    public void setUser(User user) {
+        this.user = user;
+    }
+
+    public Timestamp getCreateTime() {
+        return createTime;
+    }
+
+    public void setCreateTime(Timestamp createTime) {
+        this.createTime = createTime;
+    }
+
+    public Integer getReadSize() {
+        return readSize;
+    }
+
+    public void setReadSize(Integer readSize) {
+        this.readSize = readSize;
+    }
+
+    public Integer getCommentSize() {
+        return commentSize;
+    }
+
+    public void setCommentSize(Integer commentSize) {
+        this.commentSize = commentSize;
+    }
+
+    public Integer getLikeSize() {
+        return likeSize;
+    }
+
+    public void setLikeSize(Integer likeSize) {
+        this.likeSize = likeSize;
+    }
+
+    @Override
+    public String toString() {
+        return "Blog{" +
+                "id=" + id +
+                ", title='" + title + '\'' +
+                ", summary='" + summary + '\'' +
+                ", content='" + content + '\'' +
+                ", htmlContent='" + htmlContent + '\'' +
+                ", user=" + user +
+                ", createTime=" + createTime +
+                ", readSize=" + readSize +
+                ", commentSize=" + commentSize +
+                ", likeSize=" + likeSize +
+                '}';
+    }
 }
