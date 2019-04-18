@@ -1,9 +1,13 @@
 package com.ryoua.blog.controller;
 
 import com.ryoua.blog.domain.User;
+import com.ryoua.blog.repository.UserRepository;
+import com.ryoua.blog.service.UserService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
@@ -14,6 +18,8 @@ import javax.servlet.http.HttpServletRequest;
  */
 @Controller
 public class MainController {
+    @Autowired
+    private UserService userService;
 
     @GetMapping("/")
     public String root() {
@@ -31,19 +37,11 @@ public class MainController {
     }
 
     @PostMapping("/login")
-    public String login_user(
-            @RequestParam("username") String username,
-            @RequestParam("password") String password,
-            HttpServletRequest request) {
-        if (username.equals("ryoua") && password.equals("123")) {
-            request.getSession().setAttribute("userInfo", username + " - " + password);
-            System.out.println("登录成功");
+    public String login_user(User user) {
+        if (userService.getUserByUsernameAndPassword(user.getUsername(), user.getPassword())) {
             return "redirect:/index";
-        } else {
-            request.getSession().removeAttribute("userInfo");
-            System.out.println("登录失败");
-            return "redirect:/login-error";
         }
+        return "redirect:/login-error";
     }
 
     @GetMapping("/login-out")
@@ -61,14 +59,17 @@ public class MainController {
     }
 
     @GetMapping("/register")
-    public String register() {
+    public String register(Model model) {
+        model.addAttribute("user", new User());
         return "register";
+
     }
 
-//    @PostMapping
-//    public String register(User user) {
-//
-//    }
+    @PostMapping("/register")
+    public String register(User user) {
+        userService.saveUser(user);
+        return "redirect:/login";
+    }
 
     @GetMapping("/search")
     public String search() {
