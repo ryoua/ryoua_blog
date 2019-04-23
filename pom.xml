@@ -6,7 +6,11 @@
 
     <groupId>com.ryoua</groupId>
     <artifactId>ryoua_blog</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>ryoua_blog_v2</module>
+    </modules>
 
     <properties>
         <thymeleaf.version>3.0.2.RELEASE</thymeleaf.version>
@@ -41,6 +45,13 @@
         </dependency>
 
         <dependency>
+            <groupId>org.tautua.markdownpapers</groupId>
+            <artifactId>markdownpapers-core</artifactId>
+            <version>1.2.7</version>
+        </dependency>
+
+
+        <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
@@ -55,9 +66,15 @@
         </dependency>
 
         <dependency>
+            <groupId>com.h2database</groupId>
+            <artifactId>h2</artifactId>
+            <scope>runtime</scope>
+        </dependency>
+
+        <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
-            <version>5.1.47</version>
+            <version>5.1.46</version>
         </dependency>
 
         <dependency>

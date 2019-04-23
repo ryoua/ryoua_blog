@@ -1,14 +1,11 @@
 package com.ryoua.blog.entity;
 
-import org.hibernate.annotations.GenericGenerator;
-
 import javax.persistence.*;
 
 /**
  * @Author ryoua Created on 2019-04-22
  */
 @Entity
-@Table(name = "user")
 public class User {
 
     @Id
