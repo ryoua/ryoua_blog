@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity4">
+<head th:replace="~{fragments/header :: header}">
+</head>
+<body>
+<!-- Page Content -->
+<div class="container blog-content-container">
+
+    <div class="row">
+
+        <!-- 左侧栏目 -->
+        <div class="col-md-4 col-xl-3">
+
+            <div class="row">
+                <div class="col-md-12">
+                    <span>
+                      <a href="/user/ryoua" title="ryoua" th:title="ryoua" >
+                        <img src="https://pic.superbed.cn/item/5cbac3c83a213b04178623bc"
+                             class="blog-avatar-230">
+                      </a>
+                    </span>
+
+                </div>
+
+            </div>
+            <div class="row">
+
+                <div class="col-md-12">
+                    <h2 class="card-text">徐炳华</h2>
+                    <h4 class="card-text">南京邮电大学</h4>
+                    <h4 class="card-text">计算机科学与技术</h4>
+                    <h4 class="card-text">现居南京</h4>
+                </div>
+            </div>
+
+
+            <div class="row ">
+                <div class="col-md-12">
+                    <h5><i class="fa fa-envelope-o" aria-hidden="true"></i>
+                        <a href="mailto:waylau521@gmail.com" th:href="'mailto:'+ '1794970183@qq.com'">1794970183@qq.com</a></h5>
+                </div>
+            </div>
+
+            <hr>
+
+        </div>
+
+
+
+        <!-- 右侧栏目 -->
+
+
+        <div class="col-md-8 col-xl-9">
+            <!-- 工具栏 -->
+
+            <ul class="nav nav-tabs mr-auto">
+
+                <li class="nav-item">
+                    <a class="nav-link " data-th-classappend="${order} eq 'new' ? 'active' : ''" href="javascript:void(0)" th:attr="url='/user/ryoua'+'/blogs?order=new'">最新</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" data-th-classappend="${order} eq 'hot' ? 'active' : ''" href="javascript:void(0)" th:attr="url='/user/ryoua'+'/blogs?order=hot'">最热</a>
+                </li>
+
+            </ul>
+
+
+
+            <!-- Blog Post -->
+            <div id="mainContainer">
+                <div id="mainContainerRepleace">
+                    <div class="card mb-4" th:each="blog : ${blogList}">
+                        <div class="card-block">
+                            <h2 class="card-title">
+                                <a href="/user/ryoua/blogs/1" class="card-link" title="waylau"
+                                   th:href="'/user/ryoua' + '/blogs/'+ ${blog.blogId}"  th:title="ryoua" th:text="${blog.title}">
+                                    OAuth 2.0 认证的原理与实践
+                                </a>
+                            </h2>
+                            <p class="card-text" th:text="${blog.summary}">使用 OAuth 2.0 认证的的好处是显然易见的。你只需要用同一个账号密码，就能在各个网站进行访问，而免去了在每个网站都进行注册的繁琐过程。 本文将介绍
+                                OAuth 2.0 的原理，并基于 Spring Security 和 GitHub 账号，来演示 OAuth 2.0 的认证的过程。</p>
+                            <div class="card-text">
+                                发表于 [[${#dates.format(blog.createTime, 'yyyy-MM-dd HH:mm')}]] <i class="fa fa-eye" aria-hidden="true">[[${blog.readSize}]]</i>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- /.row -->
+
+</div>
+<!-- /.container -->
+
+<!-- The modal -->
+<div class="modal fade" id="flipFlop" tabindex="-1" role="dialog"
+     aria-labelledby="modalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="modalLabel">新增/编辑</h4>
+                <button type="button" class="close" data-dismiss="modal"
+                        aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+
+            </div>
+            <div class="modal-body" id="catalogFormContainer"></div>
+            <div class="modal-footer">
+                <button class="btn btn-primary" data-dismiss="modal" id="submitEditCatalog">提交</button>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div th:replace="~{fragments/footer :: footer}">...</div>
+
+<script src="../../js/userspace/u.js" th:src="@{/js/userspace/u.js}"></script>
+</body>
+</html>
