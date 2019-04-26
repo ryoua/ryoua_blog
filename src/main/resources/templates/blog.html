@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity4">
+<head th:replace="~{fragments/header :: header}">
+</head>
+<body>
+<!-- Page Content -->
+<div class="container blog-content-container">
+
+    <div class="row">
+
+        <!-- Blog Entries Column -->
+        <div class="col-md-8">
+
+            <!-- Blog Post -->
+            <div class="card mb-4">
+                <div class="card-block">
+                    <h2 class="card-title">
+							<span>
+			                  <a href="/user/ryoua/" title="ryoua"  th:title="ryoua" >
+			                    <img src="https://pic.superbed.cn/item/5cbac3c83a213b04178623bc" class="blog-avatar-50">
+			                  </a>
+					        </span>
+                        <a href="/user/ryoua/blogs/1" class="card-link" title="ryoua"
+                           th:href="'/user/ryoua' + '/blogs/'+ ${blogModel.blogId}"  th:title="ryoua" th:text="${blogModel.title}">
+                            OAuth 2.0 认证的原理与实践
+                        </a>
+                    </h2>
+                    <div class="card-text">
+                        <a href="/user/ryoua/" th:href="'/user/ryoua'" class="card-link" th:text="ryoua" >ryoua</a> 发表于 [[${#dates.format(blogModel.createTime, 'yyyy-MM-dd HH:mm')}]]
+                    </div>
+                    <hr>
+                    <article class="post-content" th:utext="${blogModel.content}">
+
+                    </article>
+                    <hr>
+                </div>
+                <div class="card-block">
+
+
+                    <h5>评论：</h5>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <textarea class="blog-textarea" placeholder="看帖需留言~" id="commentContent"></textarea>
+                        </div>
+                    </div>
+                    <button class="btn btn-primary float-right" id="submitComment">发表评论</button>
+                </div>
+                <div class="card-block" id="mainContainer">
+
+
+                </div>
+            </div>
+
+        </div>
+
+        <!-- 右侧栏目 -->
+        <div class="col-md-4">
+            <div>
+                <!-- 文章目录 -->
+                <div class="card ">
+                    <h5 class="card-header"><i class="fa fa-bars" aria-hidden="true"></i> 文章目录</h5>
+                    <div class="card-block">
+                        <div class="row">
+                            <div id="catalog" class="col-lg-12"></div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+    <!-- /.row -->
+
+</div>
+<!-- /.container -->
+
+
+<div th:replace="~{fragments/footer :: footer}">...</div>
+
+<!-- JavaScript -->
+<script th:inline="javascript">
+    var blogId = [[${blogModel.blogId}]];
+    var blogUrl = '/user/ryoua' + '/blogs/'+ [[${blogModel.blogId}]] ;
+</script>
+<script src="../../js/userspace/blog.js" th:src="@{/js/userspace/blog.js}"></script>
+</body>
+</html>
