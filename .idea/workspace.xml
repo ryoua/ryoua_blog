@@ -1,305 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="39777fe6-cf36-454a-8d50-62d96c92da11" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ryoua/blog/controller/BlogController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ryoua/blog/controller/MainController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ryoua/blog/entity/Blog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ryoua/blog/entity/Category.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ryoua/blog/entity/Comments.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ryoua/blog/repository/BlogRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ryoua/blog/repository/CategoryRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ryoua/blog/service/BlogService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ryoua/blog/service/CategoryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ryoua/blog/service/Impl/BlogServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ryoua/blog/service/Impl/CategoryServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ryoua/blog/util/IpUtil.java" afterDir="false" />
+    <list default="true" id="7635b78c-3da0-4295-9393-f6cf3578a985" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/ryoua.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/google-java-format.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ryoua_blog.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ryoua/blog/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ryoua/blog/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ryoua/blog/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ryoua/blog/config/WebSecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ryoua/blog/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ryoua/blog/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ryoua/blog/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ryoua/blog/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/.gradle/" />
-    <ignored path="$PROJECT_DIR$/build/" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
-    <ignored path="$PROJECT_DIR$/ryoua_blog_v2/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="CompilerWorkspaceConfiguration">
-    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
-  </component>
-  <component name="DatabaseView">
-    <option name="SHOW_INTERMEDIATE" value="true" />
-    <option name="GROUP_DATA_SOURCES" value="true" />
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <option name="HIDDEN_KINDS">
-      <set />
-    </option>
-    <expand />
-    <select />
-  </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
-  <component name="FavoritesManager">
-    <favorites_list name="ryoua_blog" />
-  </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/login.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="31" column="4" lean-forward="true" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ryoua/blog/Application.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#287#288#0" expanded="true" />
-                <element signature="e#349#350#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ryoua/blog/repository/BlogRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ryoua/blog/entity/Blog.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/fragments/footer.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="12" column="52" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="52" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ryoua/blog/controller/BlogController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ryoua/blog/controller/MainController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="31" column="19" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#290#291#0" expanded="true" />
-                <element signature="e#329#330#0" expanded="true" />
-                <element signature="e#436#437#0" expanded="true" />
-                <element signature="e#475#476#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ryoua/blog/controller/UserController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="29" column="36" selection-start-line="28" selection-start-column="3" selection-end-line="29" selection-end-column="36" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="463">
-              <caret line="71" column="21" selection-start-line="71" selection-start-column="21" selection-end-line="71" selection-end-column="21" />
-            </state>
-          </provider>
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Interface" />
-        <option value="Class" />
-        <option value="HTML File" />
-      </list>
-    </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>`</find>
-      <find>&quot;https://waylau.com/images/waylau_181_181.jpg&quot;</find>
-      <find>waylau</find>
-      <find>form</find>
-      <find>wa</find>
-      <find>img src=&quot;https://waylau.com/images/waylau_181_181.jpg&quot;</find>
-      <find>src=&quot;https://waylau.com/images/waylau_181_181.jpg&quot;</find>
-      <find>token</find>
-      <find>SpEL</find>
-      <find>total</find>
-      <find>totalPage</find>
-      <find>page</find>
-      <find>username</find>
-      <find>https://waylau.com/images/waylau_181_181.jpg</find>
-      <find>img</find>
-      <find>name</find>
-      <find>ar</find>
-      <find>articles</find>
-      <find>blogs</find>
-      <find>blogs.title</find>
-      <find>article</find>
-      <find>search</find>
-      <find>blog</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>&quot;../static/favicon.ico</replace>
-      <replace>src=&quot;../static/favicon.ico&quot;</replace>
-      <replace>https://pic.superbed.cn/item/5cbac3c83a213b04178623bc</replace>
-      <replace>bl</replace>
-      <replace>&lt;link th:href=&quot;@{/bootstrap/css/bootstrap.min.css}&quot; rel=&quot;stylesheet&quot;/&gt;</replace>
-    </replaceStrings>
-    <dirStrings>
-      <dir>$PROJECT_DIR$/src/main/java/com/ryoua/blog/util</dir>
-      <dir>$PROJECT_DIR$/src/main/resources/static</dir>
-    </dirStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/ryoua/blog/util/ConstraintViolationExceptionHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ryoua/blog/vo/Response.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ryoua/blog/config/SecurityConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ryoua/blog/controller/AdminController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ryoua/blog/controller/UserspaceController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ryoua/blog/domain/Authority.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ryoua/blog/domain/User.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ryoua/blog/repository/AuthorityRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ryoua/blog/dao/UserDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ryoua/blog/service/UserService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ryoua/blog/repository/UserDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ryoua/blog/repository/UserRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ryoua/blog/service/Impl/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ryoua/blog/repository/CategoryRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ryoua/blog/service/CategoryService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ryoua/blog/service/Impl/CategoryServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/front/detail.html" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ryoua/blog/entity/Comments.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ryoua/blog/entity/User.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ryoua/blog/config/WebSecurityConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ryoua/blog/entity/Category.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/front/columnPage.html" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ryoua/blog/util/IpUtils.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ryoua/blog/util/IpUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ryoua/blog/controller/BlogController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ryoua/blog/entity/Blog.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ryoua/blog/repository/BlogRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ryoua/blog/service/Impl/BlogServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ryoua/blog/service/BlogService.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/admin/write.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/admin/update.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/admin/index.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/front/index.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/common/top.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/admin/login.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/v2/login.html" />
-        <option value="$PROJECT_DIR$/ryoua_blog_v2/src/main/resources/application-default.properties" />
-        <option value="$PROJECT_DIR$/ryoua_blog_v2/src/main/java/com/ryoua/blog/entity/Article.java" />
-        <option value="$PROJECT_DIR$/ryoua_blog_v2/src/main/java/com/ryoua/blog/repository/ArticleRepository.java" />
-        <option value="$PROJECT_DIR$/ryoua_blog_v2/src/main/java/com/ryoua/blog/controller/ArticleController.java" />
-        <option value="$PROJECT_DIR$/ryoua_blog_v2/src/main/java/com/ryoua/blog/service/ArticleService.java" />
-        <option value="$PROJECT_DIR$/ryoua_blog_v2/src/main/java/com/ryoua/blog/service/Impl/ArticleServiceImpl.java" />
-        <option value="$PROJECT_DIR$/ryoua_blog_v2/src/main/resources/templates/themes/default/index.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/fragments/header.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/login.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/fragments/footer.html" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ryoua/blog/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ryoua/blog/Application.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ryoua/blog/controller/MainController.java" />
-      </list>
-    </option>
-  </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
-  </component>
-  <component name="MavenProjectNavigator">
-    <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="ryoua_blog" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-      </expand>
-      <select />
-    </treeState>
-  </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="94" />
+    <option name="x" value="326" />
     <option name="y" value="23" />
-    <option name="width" value="1771" />
+    <option name="width" value="1226" />
     <option name="height" value="1057" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+  <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
@@ -307,7 +50,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -315,126 +58,19 @@
               <item name="ryoua_blog" type="b2602c69:ProjectViewProjectNode" />
               <item name="ryoua_blog" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="ryoua_blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ryoua_blog" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ryoua_blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ryoua_blog" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ryoua_blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ryoua_blog" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ryoua_blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ryoua_blog" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ryoua_blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ryoua_blog" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ryoua_blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ryoua_blog" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ryoua_blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ryoua_blog" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ryoua_blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ryoua_blog" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-              <item name="repository" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ryoua_blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ryoua_blog" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ryoua_blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ryoua_blog" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ryoua_blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ryoua_blog" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="RequestMappingsPanelOrder0" value="0" />
-    <property name="RequestMappingsPanelOrder1" value="1" />
-    <property name="RequestMappingsPanelOrder2" value="2" />
-    <property name="RequestMappingsPanelWidth0" value="75" />
-    <property name="RequestMappingsPanelWidth1" value="75" />
-    <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554110093458" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\ryoua\Documents\GitHub\ryoua_blog" />
-    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -448,320 +84,67 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.Application">
-    <configuration name="All in ryoua_blog" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ryoua_blog" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="ryoua_blog" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ryoua.blog.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ryoua.blog.Application" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Spring Boot.Application" />
-        <item itemvalue="JUnit.All in ryoua_blog" />
-      </list>
-    </recent_temporary>
-  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="39777fe6-cf36-454a-8d50-62d96c92da11" name="Default Changelist" comment="" />
-      <created>1553952161782</created>
+      <changelist id="7635b78c-3da0-4295-9393-f6cf3578a985" name="Default Changelist" comment="" />
+      <created>1556108458382</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1553952161782</updated>
-      <workItem from="1553952163085" duration="418000" />
-      <workItem from="1553952593491" duration="713000" />
-      <workItem from="1553997630012" duration="5383000" />
-      <workItem from="1554042208713" duration="1163000" />
-      <workItem from="1554109024359" duration="1356000" />
-      <workItem from="1554176095739" duration="834000" />
-      <workItem from="1554179012901" duration="9000" />
-      <workItem from="1554179025112" duration="221000" />
-      <workItem from="1554186409211" duration="386000" />
-      <workItem from="1554192364633" duration="1621000" />
-      <workItem from="1554210802950" duration="1062000" />
-      <workItem from="1554264030831" duration="2816000" />
-      <workItem from="1554303195631" duration="202000" />
-      <workItem from="1554711352264" duration="7608000" />
-      <workItem from="1554796159312" duration="3593000" />
-      <workItem from="1554905704284" duration="300000" />
-      <workItem from="1554962672115" duration="3509000" />
-      <workItem from="1554971524767" duration="4894000" />
-      <workItem from="1554995761025" duration="599000" />
-      <workItem from="1555024534383" duration="113000" />
-      <workItem from="1555024662616" duration="232000" />
-      <workItem from="1555024908934" duration="183000" />
-      <workItem from="1555025106450" duration="436000" />
-      <workItem from="1555028493269" duration="4194000" />
-      <workItem from="1555118645022" duration="160000" />
-      <workItem from="1555142484889" duration="3196000" />
-      <workItem from="1555221783722" duration="724000" />
-      <workItem from="1555241583594" duration="51000" />
-      <workItem from="1555316266660" duration="1728000" />
-      <workItem from="1555322026902" duration="599000" />
-      <workItem from="1555339543204" duration="654000" />
-      <workItem from="1555376864740" duration="598000" />
-      <workItem from="1555401202216" duration="5082000" />
-      <workItem from="1555595474295" duration="1552000" />
-      <workItem from="1555597113218" duration="3289000" />
-      <workItem from="1555642238437" duration="289000" />
-      <workItem from="1555678704648" duration="1632000" />
-      <workItem from="1555738902555" duration="5653000" />
-      <workItem from="1555826079046" duration="6489000" />
-      <workItem from="1555858080706" duration="278000" />
-      <workItem from="1555907845265" duration="1217000" />
-      <workItem from="1555930550202" duration="3410000" />
-      <workItem from="1555939628968" duration="1191000" />
-      <workItem from="1555941983717" duration="103000" />
-      <workItem from="1555942104481" duration="380000" />
-      <workItem from="1555943765834" duration="474000" />
-      <workItem from="1555975791721" duration="9674000" />
-      <workItem from="1555997562064" duration="7440000" />
-      <workItem from="1556011230048" duration="316000" />
-      <workItem from="1556061560707" duration="208000" />
-      <workItem from="1556061776697" duration="773000" />
+      <updated>1556108458382</updated>
+      <workItem from="1556108459673" duration="104000" />
     </task>
     <servers />
   </component>
-  <component name="TestHistory">
-    <history-entry file="All_in_ryoua_blog - 2019.04.08 at 19h 35m 51s.xml">
-      <configuration name="All in ryoua_blog" configurationId="JUnit" />
-    </history-entry>
-  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="99005000" />
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
+    <option name="totallyTimeSpent" value="104000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="94" y="23" width="1771" height="1057" extended-state="0" />
+    <frame x="326" y="23" width="1226" height="1057" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4987745" visible="true" weight="0.2203586" />
-      <window_info id="Structure" order="1" sideWeight="0.5012255" side_tool="true" weight="0.24387702" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" sideWeight="0.50159746" side_tool="true" weight="0.2496" />
-      <window_info id="Web" order="7" side_tool="true" />
+      <window_info id="Designer" />
+      <window_info id="Image Layers" />
+      <window_info id="UI Designer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Capture Tool" />
+      <window_info id="Web" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Spring" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32953367" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.36373058" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3290461" />
-      <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3290461" />
-      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Java Enterprise" order="11" />
-      <window_info anchor="bottom" id="Database Changes" order="12" />
-      <window_info anchor="bottom" id="Version Control" order="13" weight="0.14554974" />
-      <window_info anchor="bottom" id="Messages" order="14" weight="0.32953367" />
-      <window_info anchor="bottom" id="Problems" order="15" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Bean Validation" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" weight="0.32985932" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Database" order="6" weight="0.32916668" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info anchor="right" id="Bean Validation" order="9" weight="0.32938856" />
-      <window_info anchor="right" id="SciView" order="10" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <ignored-roots>
-      <path value="$PROJECT_DIR$/ryoua_blog" />
-    </ignored-roots>
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/blog/themes/default/post.html" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/blog/admin/index.html" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/blog/themes/default/index.html" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/update.html" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/front/index.html" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/bootstrap/css/bootstrap.css" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/write.html" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/index.html" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/common/top.html" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/login.html" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/v2/login.html" />
-    <entry file="file://$PROJECT_DIR$/ryoua_blog_v2/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/ryoua_blog_v2/src/main/resources/log4j2.xml" />
-    <entry file="file://$PROJECT_DIR$/ryoua_blog_v2/src/main/resources/banner.txt" />
-    <entry file="file://$PROJECT_DIR$/ryoua_blog_v2/src/main/resources/application-docker.properties" />
-    <entry file="file://$PROJECT_DIR$/ryoua_blog_v2/src/main/resources/application.properties" />
-    <entry file="file://$PROJECT_DIR$/ryoua_blog_v2/src/main/java/com/ryoua/blog/controller/MainController.java" />
-    <entry file="file://$PROJECT_DIR$/ryoua_blog_v2/src/main/java/com/ryoua/blog/entity/Category.java" />
-    <entry file="file://$PROJECT_DIR$/ryoua_blog_v2/src/main/java/com/ryoua/blog/entity/Article.java" />
-    <entry file="file://$PROJECT_DIR$/ryoua_blog_v2/src/main/java/com/ryoua/blog/entity/User.java" />
-    <entry file="file://$PROJECT_DIR$/ryoua_blog_v2/src/main/java/com/ryoua/blog/entity/Comments.java" />
-    <entry file="file://$PROJECT_DIR$/ryoua_blog_v2/src/main/java/com/ryoua/blog/repository/ArticleRepository.java" />
-    <entry file="file://$PROJECT_DIR$/ryoua_blog_v2/src/main/java/com/ryoua/blog/repository/CategoryRepository.java" />
-    <entry file="file://$PROJECT_DIR$/ryoua_blog_v2/src/main/java/com/ryoua/blog/repository/UserRepository.java" />
-    <entry file="file://$PROJECT_DIR$/ryoua_blog_v2/src/main/java/com/ryoua/blog/service/UserService.java" />
-    <entry file="file://$PROJECT_DIR$/ryoua_blog_v2/src/main/java/com/ryoua/blog/service/CategoryService.java" />
-    <entry file="file://$PROJECT_DIR$/ryoua_blog_v2/src/main/java/com/ryoua/blog/controller/ArticleController.java" />
-    <entry file="file://$PROJECT_DIR$/ryoua_blog_v2/src/main/java/com/ryoua/blog/service/ArticleService.java" />
-    <entry file="file://$PROJECT_DIR$/ryoua_blog_v2/src/main/java/com/ryoua/blog/service/Impl/ArticleServiceImpl.java" />
-    <entry file="file://$PROJECT_DIR$/ryoua_blog_v2/src/main/java/com/ryoua/blog/config/WebSecurityConfig.java" />
-    <entry file="file://$PROJECT_DIR$/ryoua_blog_v2/src/main/resources/templates/themes/default/page.html" />
-    <entry file="file://$PROJECT_DIR$/ryoua_blog_v2/src/main/resources/templates/themes/default/page-category.html" />
-    <entry file="file://$PROJECT_DIR$/ryoua_blog_v2/src/main/resources/templates/themes/default/header.html" />
-    <entry file="file://$PROJECT_DIR$/ryoua_blog_v2/src/main/resources/templates/themes/default/footer.html" />
-    <entry file="file://$PROJECT_DIR$/ryoua_blog_v2/src/main/resources/templates/themes/default/comments.html" />
-    <entry file="file://$PROJECT_DIR$/ryoua_blog_v2/src/main/resources/templates/themes/default/archives.html" />
-    <entry file="file://$PROJECT_DIR$/ryoua_blog_v2/src/main/resources/templates/themes/default/index.html" />
-    <entry file="file://$PROJECT_DIR$/ryoua_blog_v2/src/main/resources/templates/admin/index.html" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admins/index.html">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/u.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="26" column="18" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/fragments/header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="640">
-          <caret line="39" column="47" selection-start-line="39" selection-start-column="47" selection-end-line="39" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ryoua/blog/controller/BlogController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/fragments/footer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="12" column="52" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ryoua/blog/repository/BlogRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ryoua/blog/entity/Blog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="463">
-          <caret line="71" column="21" selection-start-line="71" selection-start-column="21" selection-end-line="71" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ryoua/blog/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#287#288#0" expanded="true" />
-            <element signature="e#349#350#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ryoua/blog/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="29" column="36" selection-start-line="28" selection-start-column="3" selection-end-line="29" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="31" column="4" lean-forward="true" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ryoua/blog/controller/MainController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="31" column="19" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#290#291#0" expanded="true" />
-            <element signature="e#329#330#0" expanded="true" />
-            <element signature="e#436#437#0" expanded="true" />
-            <element signature="e#475#476#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ScopeChooserConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>
