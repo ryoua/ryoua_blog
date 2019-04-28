@@ -5,4 +5,5 @@ package com.ryoua.spring.boot.blog.service;
  */
 public interface UserService {
     boolean isUserExist(String username, String password);
+
 }

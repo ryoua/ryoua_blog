@@ -30,6 +30,12 @@ public class BlogServiceImpl implements BlogService {
     }
 
     @Override
+    public Page<Blog> findBlogNoCriteria(Integer page, Integer size) {
+        Pageable pageable = new PageRequest(page, size, Sort.Direction.DESC, "blogId");
+        return blogRepository.findAll(pageable);
+    }
+
+    @Override
     public void saveBlog(Blog blog) {
         blogRepository.save(blog);
     }
