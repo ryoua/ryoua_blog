@@ -18,12 +18,23 @@ public class User {
     @Column(nullable = false)
     private String password;
 
+    @Column
+    private String token;
+
     public User() {}
 
     public User(Long id, String username, String password) {
         this.id = id;
         this.username = username;
         this.password = password;
+    }
+
+    public String getToken() {
+        return token;
+    }
+
+    public void setToken(String token) {
+        this.token = token;
     }
 
     public Long getId() {

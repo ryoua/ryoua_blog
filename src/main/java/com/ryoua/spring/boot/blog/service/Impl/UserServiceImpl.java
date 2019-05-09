@@ -16,6 +16,11 @@ public class UserServiceImpl implements UserService{
     private UserRepository userRepository;
 
     @Override
+    public User getUserByToken(String userToken) {
+        return userRepository.getUserByToken(userToken);
+    }
+
+    @Override
     public boolean isUserExist(String username, String password) {
         List<User> list = userRepository.findAll();
         for (User user : list) {
