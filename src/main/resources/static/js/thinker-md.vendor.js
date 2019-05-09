@@ -10269,7 +10269,7 @@ var DIAGRAM_MARGIN=10,ACTOR_MARGIN=10,ACTOR_PADDING=10,SIGNAL_MARGIN=5,SIGNAL_PA
             return merged;
         }
         function _inherits(ctor, superCtor) {
-            if ("function" == typeof Object.create) // implementation from standard node.js 'utils' module
+            if ("function" == typeof Object.create) // implementation from standard node.js 'util' module
             ctor.super_ = superCtor, ctor.prototype = Object.create(superCtor.prototype, {
                 constructor: {
                     value: ctor,

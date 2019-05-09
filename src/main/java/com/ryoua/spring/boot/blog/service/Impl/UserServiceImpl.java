@@ -1,33 +1,71 @@
-package com.ryoua.spring.boot.blog.service;
+package com.ryoua.spring.boot.blog.service.Impl;
 
-import com.ryoua.spring.boot.blog.entity.User;
+import com.ryoua.spring.boot.blog.domain.User;
 import com.ryoua.spring.boot.blog.repository.UserRepository;
+import com.ryoua.spring.boot.blog.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
+import org.springframework.security.core.userdetails.UserDetails;
+import org.springframework.security.core.userdetails.UserDetailsService;
+import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 
 /**
- * @Author ryoua Created on 2019-04-24
+ * @Author ryoua Created on 2019-05-09
  */
 @Service
-public class UserServiceImpl implements UserService{
+public class UserServiceImpl implements UserService, UserDetailsService {
     @Autowired
     private UserRepository userRepository;
 
+    @Transactional
     @Override
-    public User getUserByToken(String userToken) {
-        return userRepository.getUserByToken(userToken);
+    public User saveUser(User user) {
+        return userRepository.save(user);
+    }
+
+    @Transactional
+    @Override
+    public void removeUser(Long id) {
+        userRepository.delete(id);
+    }
+
+    @Transactional
+    @Override
+    public void removeUsersInBatch(List<User> users) {
+        userRepository.deleteInBatch(users);
+    }
+
+    @Transactional
+    @Override
+    public User updateUser(User user) {
+        return userRepository.save(user);
     }
 
     @Override
-    public boolean isUserExist(String username, String password) {
-        List<User> list = userRepository.findAll();
-        for (User user : list) {
-            if (user.getUsername().equals(username))
-                if (user.getPassword().equals(password))
-                    return true;
-        }
-        return false;
+    public User getUserById(Long id) {
+        return userRepository.getOne(id);
+    }
+
+    @Override
+    public List<User> listUsers() {
+        return userRepository.findAll();
+    }
+
+    @Override
+    public Page<User> listUsersByNameLike(String name, Pageable pageable) {
+        // 模糊查询
+        name = "%" + name + "%";
+        Page<User> users = userRepository.findByNameLike(name, pageable);
+        return users;
+    }
+
+    @Override
+    public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
+        return userRepository.findByUsername(username);
     }
 }
