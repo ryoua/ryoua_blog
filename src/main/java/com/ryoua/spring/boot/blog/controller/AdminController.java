@@ -18,7 +18,6 @@ import java.util.List;
 public class AdminController {
     /**
      * 获取后台管理主页面
-     * @return
      */
     @GetMapping
     public ModelAndView listUsers(Model model) {

@@ -6,7 +6,6 @@ import java.io.Serializable;
  * @Author ryoua Created on 2019-05-09
  */
 public class Menu implements Serializable {
-
     private static final long serialVersionUID = 1L;
 
     private String name;

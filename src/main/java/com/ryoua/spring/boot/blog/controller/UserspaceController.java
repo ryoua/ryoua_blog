@@ -42,10 +42,6 @@ public class UserspaceController {
 
     /**
      * 保存个人设置
-     * @param user
-     * @param result
-     * @param redirect
-     * @return
      */
     @PostMapping("/{username}/profile")
     @PreAuthorize("authentication.name.equals(#username)")
@@ -69,9 +65,6 @@ public class UserspaceController {
 
     /**
      * 获取编辑头像的界面
-     * @param username
-     * @param model
-     * @return
      */
     @GetMapping("/{username}/avatar")
     @PreAuthorize("authentication.name.equals(#username)")
@@ -84,9 +77,6 @@ public class UserspaceController {
 
     /**
      * 获取编辑头像的界面
-     * @param username
-     * @param model
-     * @return
      */
     @PostMapping("/{username}/avatar")
     @PreAuthorize("authentication.name.equals(#username)")
